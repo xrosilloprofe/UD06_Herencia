@@ -1,4 +1,4 @@
-package ejercicio01;
+package ejercicio1;
 
 public enum Grado {
     ASIR_PRIMERO(1,"ASIR"),

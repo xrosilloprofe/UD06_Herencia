@@ -1,4 +1,4 @@
-package ejercicio01;
+package ejercicio1;
 
 public class Persona {
     private String DNI;
