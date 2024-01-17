@@ -18,7 +18,7 @@ public abstract class Empleado extends Persona{
     }
 
     protected void cambiaSalario(int incremento){
-        salario = (salario*(1+(incremento/100)));
+        salario = (salario*(1+((double)incremento/100)));
     }
 
     public void setSupervisor(Empleado supervisor) {
