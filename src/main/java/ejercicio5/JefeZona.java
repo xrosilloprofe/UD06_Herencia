@@ -38,7 +38,7 @@ public class JefeZona extends Empleado{
     public void anyadirVendedor(Vendedor vendedor){
         Vendedor[] aux;
         if(vendedores==null){
-            aux = new Vendedor[][1];
+            aux = new Vendedor[1];
         } else {
             aux= new Vendedor[vendedores.length+1];
             System.arraycopy(vendedores,0,aux,0,vendedores.length);
